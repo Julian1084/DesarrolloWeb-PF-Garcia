@@ -92,31 +92,48 @@ footer {
     filter: blur(0px);
 }
 
-.Discografia-contenedor h2{
-    margin-top: 40px;
-    text-align: center;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+.img-fluid{
+    filter: sepia(60%);
+}
+.img-fluid:hover{
+    filter: none;
 }
 
-.discografia-grid-container {
-    display: grid;
-    grid-template-columns:200px 200px 200px 200px;
-    grid-template-rows: 80px repeat(24, 200px);
-    padding: 30px;
-    margin-left: 300px;
-  }
-  .Discografia {
+.imagen-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 60px;
+    max-width: 400px;
     background-color: aliceblue;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    margin: 0 auto;
   }
-
-.Discografia img {
-    height: 100%;
+  
+  form input, form textarea{
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
     width: 100%;
-    object-fit: contain;
-    
-}
+    padding: 10px;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: none; 
+  }
+  
+  form button {
+      display: block;
+      background-color: #0095eb;
+      padding: 10px 45px 10px 45px;
+      border: 0;
+      font-size: 1em; 
+      color: 	white;
+    font-family: "Roboto", sans-serif;
+  }
+  form button: hover{
+      background-color: #046193;
+  }
+  textarea {  resize: none;}
