@@ -51,69 +51,7 @@ nav {
     padding: 30px;
 }
 
-.media {
-    margin-top: 40px;
-    text-align: center;
-    color: aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
 
-.galeria-grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 300px 300px 300px;
-    margin-top: 45px;
-    padding-left: 70px;
-    padding-right: 70px;
-}
-
-.galeria-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.galeria-item img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    filter: blur(2px);
-    transition: filter 0.3s ease-in;
-}
-
-.galeria-item img:hover {
-    filter: blur(0px);
-}
-.Discografia-contenedor h2{
-    margin-top: 40px;
-    text-align: center;
-    color: aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-.discografia-grid-container {
-    display: grid;
-    grid-template-columns:200px 200px 200px 200px;
-    grid-template-rows: 80px repeat(24, 200px);
-    padding: 30px;
-    margin-left: 300px;
-  }
-  .Discografia {
-    background-color: aliceblue;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
-.Discografia img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    
-}
 .imagen-contact{
     display: flex;
     justify-content: center;
