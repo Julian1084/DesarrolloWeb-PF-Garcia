@@ -1,7 +1,7 @@
 form{
     padding: 60px;
     max-width: 400px;
-    background-color: aliceblue;
+    background-color: $color-aliceblue;
     margin: 0 auto;
   }
   
@@ -12,21 +12,21 @@ form{
     padding: 10px;
     box-sizing: border-box; 
     border: none; 
-    color: #525c66; 
+    color: $color-formulario; 
     font-size: 1em;
     resize: none; 
   }
   
   form button {
       display: block;
-      background-color: #0095eb;
+      background-color: $color-celeste;
       padding: 10px 45px 10px 45px;
       border: 0;
       font-size: 1em; 
-      color: 	white;
+      color: $color-blanco;
     font-family: "Roboto", sans-serif;
   }
   form button:hover {
-      background-color: #046193;
+      background-color: $color-negro;
   }
   textarea {  resize: none;}
