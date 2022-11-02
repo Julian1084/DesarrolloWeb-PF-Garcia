@@ -4,15 +4,34 @@ footer {
     align-items: center;
     flex-direction: row;
     padding: 15px;
-    background-color: black;
+    background-color: $color-negro;
+   
+     
+    .instagram{
+        border-radius: 5px;
+        @include sizes(50px, 50px)
+        
+        &:hover {
+            background-color: $color-aliceblue;
+        }
+    }
+
+    .facebook {
+        @extend .instagram
+    }
+    .twitter {
+        @extend .instagram
+    }
+
+    .redes {
+        align-items: center;
+        text-align: center;
+        a {
+            font-size:xx-large;
+        }
+    }
+    .copyright {
+        color: $color-aliceblue;
+    }
 }
 
-.redes a {
-    margin-left: 50px;
-    margin-right: 60px;
-    padding-left: 20px;
-    font-size:xx-large;
-}
-.copyright {
-    color: aliceblue;
-}

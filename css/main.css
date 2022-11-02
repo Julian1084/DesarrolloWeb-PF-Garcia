@@ -23,29 +23,25 @@
   margin-top: 45px;
   padding-left: 70px;
   padding-right: 70px; }
-
-.galeria-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid black;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center; }
-
-.galeria-item img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  filter: blur(2px);
-  transition: filter 0.3s ease-in; }
-
-.galeria-item img:hover {
-  filter: blur(0px); }
+  .galeria-grid-container .galeria-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center; }
+  .galeria-grid-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    filter: blur(2px);
+    transition: filter 0.3s ease-in; }
+    .galeria-grid-container img:hover {
+      filter: blur(0px); }
 
 .img-fluid {
   filter: sepia(60%); }
-
-.img-fluid:hover {
-  filter: none; }
+  .img-fluid:hover {
+    filter: none; }
 
 .imagen-contact {
   display: flex;
@@ -87,32 +83,22 @@ form {
   max-width: 400px;
   background-color: aliceblue;
   margin: 0 auto; }
-
-form input, form textarea {
-  margin-bottom: 15px;
-  font-family: "Roboto", sans-serif;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  border: none;
-  color: #525c66;
-  font-size: 1em;
-  resize: none; }
-
-form button {
-  display: block;
-  background-color: #0095eb;
-  padding: 10px 45px 10px 45px;
-  border: 0;
-  font-size: 1em;
-  color: white;
-  font-family: "Roboto", sans-serif; }
-
-form button:hover {
-  background-color: black; }
-
-textarea {
-  resize: none; }
+  form input, form textarea {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: #525c66;
+    font-size: 1em;
+    resize: none; }
+  form .enviar {
+    display: block;
+    background-color: #0095eb;
+    padding: 10px 45px 10px 45px;
+    border: 0;
+    font-size: 1em;
+    color: white;
+    font-family: "Roboto", sans-serif; }
 
 footer {
   display: flex;
@@ -121,12 +107,16 @@ footer {
   flex-direction: row;
   padding: 15px;
   background-color: black; }
-
-.redes a {
-  margin-left: 50px;
-  margin-right: 60px;
-  padding-left: 20px;
-  font-size: xx-large; }
-
-.copyright {
-  color: aliceblue; }
+  footer .instagram, footer .facebook, footer .twitter {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px; }
+    footer .instagram:hover, footer .facebook:hover, footer .twitter:hover {
+      background-color: aliceblue; }
+  footer .redes {
+    align-items: center;
+    text-align: center; }
+    footer .redes a {
+      font-size: xx-large; }
+  footer .copyright {
+    color: aliceblue; }
