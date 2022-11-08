@@ -42,60 +42,69 @@
         filter: none;
         }
     }
-    .discografia-listado {
-        position: relative;
-      }
-      
-      .discografia-imagen {
-        line-height: 0;
-        overflow: hidden;
-      }
-      
-      .discografia-imagen img {
-        filter: blur(0px);
-        transition: filter 0.3s ease-in;
-        transform: scale(1.1);
-      }
-      
-      .discografia-descripcion {
-        font-size: 1.5em;
-        font-weight: bold;
-        text-decoration: none;
-        z-index: 1;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        opacity: 0;
-        transition: opacity .5s;
-        background: rgba(90,0,10,0.4);
-        color: white!important;
-        
-        /* position the text in t’ middle*/
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .discografia-listado:hover .discografia-descripcion {
-        opacity: 1;
-      }
-      
-      .discografia-listado:hover .discografia-imagen img {
-        filter: blur(2px);
-      }
-      
-      
-      /* for touch screen devices */
-      @media (hover: none) { 
-        .discografia-descripcion {
-          opacity: 1;
-        }
-        .discografia-imagen img {
-          filter: blur(2px);
-        }
-      }
+/* hover styles */
+.discografia-listado {
+    position: relative;
+    padding-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .discografia-imagen {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .discografia-imagen img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .discografia-descripcion {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    text-align: center;
+    background: $color-discografia;
+    color: $color-blanco!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .discografia-descripcion-grande {
+        @extend .discografia-descripcion;
+        font-size: 1em;
+    }
+    /* position the text in t’ middle*/
+    
+  
+  
+  .discografia-listado:hover .discografia-descripcion {
+    opacity: 1;
+  }
+  
+  .discografia-listado:hover .discografia-imagen img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .discografia-descripcion {
+      opacity: 1;
+    }
+    .discografia-imagen img {
+      filter: blur(2px);
+    }
+  }
 
 .imagen-contact{
     display: flex;

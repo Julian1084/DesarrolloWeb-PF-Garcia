@@ -26,3 +26,21 @@
         padding-right: 70px;
     }
         }
+        @media (hover: none) { 
+            .discografia-descripcion {
+              opacity: 1;
+            }
+            .discografia-imagen img {
+              filter: blur(2px);
+            }
+          }
+
+@media (hover: none) { 
+            .discografia-descripcion {
+              opacity: 1;
+            }
+            .discografia-imagen img {
+              filter: blur(2px);
+            }
+          }
+        
