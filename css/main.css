@@ -108,7 +108,12 @@
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
-    margin-top: 0; } }
+    margin-top: 0; }
+    .col-25 .formulario-contacto, .col-75 .formulario-contacto, input[type=submit] .formulario-contacto {
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      margin: auto; } }
 
 @media (hover: none) {
   .discografia-descripcion, .discografia-listado .discografia-descripcion-grande {
