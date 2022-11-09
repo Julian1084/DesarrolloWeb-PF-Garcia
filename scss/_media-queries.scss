@@ -14,6 +14,15 @@
     padding-left: 70px;
     padding-right: 70px;}
 
+    .img-fluid{
+      @include sizes(820px,470px)
+      filter: sepia(60%);
+  
+      &:hover{
+          filter: none;
+          }
+      }
+
     }
 
     @media screen and (max-width: $media-query-mobile) {

@@ -96,7 +96,13 @@
     grid-template-rows: auto auto auto auto;
     margin-top: 45px;
     padding-left: 70px;
-    padding-right: 70px; } }
+    padding-right: 70px; }
+  .img-fluid {
+    width: 820px;
+    height: 470px;
+    filter: sepia(60%); }
+    .img-fluid:hover {
+      filter: none; } }
 
 @media screen and (max-width: 480px) {
   .galeria-grid-container {
