@@ -118,8 +118,8 @@
 
 .formulario-contacto {
   box-sizing: border-box;
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   margin: auto; }
 
 input[type=text], select, textarea, input [type=date], select, textarea, input[type=date] {
