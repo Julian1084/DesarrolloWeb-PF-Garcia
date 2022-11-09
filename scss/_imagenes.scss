@@ -1,9 +1,9 @@
-.imagen-index {
+.imagen-index .img-fluid{
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
-    @include sizes(70%,70%)
+    @include sizes(728px,418px)
     
 }
 
@@ -24,8 +24,7 @@
         }
 
         & img {
-        height: 100%;
-        width: 100%;
+        @include sizes(100%,100%)
         object-fit: contain;
         filter: blur(2px);
         transition: filter 0.3s ease-in;
@@ -66,8 +65,7 @@
         text-decoration: none;
         z-index: 1;
         position: absolute;
-        height: 100%;
-        width: 100%;
+        @include sizes(100%,100%)
         top: 0;
         left: 0;
         opacity: 0;
@@ -97,4 +95,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.edda {
+    @include sizes (417px,324px)
 }

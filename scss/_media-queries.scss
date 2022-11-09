@@ -12,9 +12,14 @@
     grid-template-rows: auto auto auto auto;
     margin-top: 45px;
     padding-left: 70px;
-    padding-right: 70px;
-}
+    padding-right: 70px;}
+
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
     }
+}
+    
 
     @media screen and (max-width: $media-query-mobile) {
         .galeria-grid-container {
@@ -23,17 +28,14 @@
         grid-template-rows: auto auto auto auto auto auto auto auto auto;
         margin-top: 45px;
         padding-left: 70px;
-        padding-right: 70px;
-    }
+        padding-right: 70px;}
+
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
         }
-        @media (hover: none) { 
-            .discografia-descripcion {
-              opacity: 1;
-            }
-            .discografia-imagen img {
-              filter: blur(2px);
-            }
-          }
+    }
+ 
 
 @media (hover: none) { 
             .discografia-descripcion {
