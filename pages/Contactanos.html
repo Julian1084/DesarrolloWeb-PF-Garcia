@@ -61,14 +61,14 @@
     </nav>
     <!-- navbar cierra-->
   <main>
-    <div class="imagen-contact"><img src="../imagenes/9a282583af40cb86bac74a84785f3897.jpg" alt="" height="50%"
-        width="50%"></div>
+    <div class="imagen-contacto">
+      <img class="img-fluid" src="../imagenes/9a282583af40cb86bac74a84785f3897.jpg" alt="El amor después del amor"></div>
 
     <!-- formulario de contacto -->
    <div class="formulario-contacto">
     <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Dejale tu mensaje a Fito</h1>
     <hr class="mt-2 mb-5">
-        <div class="container-form">
+        <div class="container">
       <form action="/action_page.php">
       <div class="row">
         <div class="col-25">
@@ -88,19 +88,27 @@
       </div>
       <div class="row">
         <div class="col-25">
-          <label for="date">Fecha de Nacimiento</label>
-        </div>
-        <div class="col-75">
-          <input type="date" id="date" name="date">
-        </div>
-        <div class="row">
-        <div class="col-25">
           <label for="email">e-mail</label>
         </div>
         <div class="col-75">
           <input type="text" id="email" name="email" placeholder="Escribí tu correo electrónico">
         </div>
       </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="date">Fecha de Nacimiento</label>
+        </div>
+        <div class="col-75">
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="mensaje">Mensaje</label>
+          </div>
+          <div class="col-75">
+            <textarea id="mensaje" name="mensaje" placeholder="Escribile tu mensaje para Fito..." style="height:200px"></textarea>
+          </div>
+        </div>
       <div class="row">
         <div class="col-25">
           <label for="pais">Pais</label>
@@ -124,16 +132,7 @@
           </select>
         </div>
       </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="mensaje">Mensaje</label>
-        </div>
-        <div class="col-75">
-          <textarea id="mensaje" name="mensaje" placeholder="Escribile tu mensaje para Fito..." style="height:200px"></textarea>
-        </div>
-      </div>
-      <br>
-      <div class="row">
+      <div class="row-submit">
         <input type="submit" value="Enviar">
       </div>
       </form>

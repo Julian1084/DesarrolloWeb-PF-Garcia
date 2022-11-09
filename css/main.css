@@ -2,7 +2,7 @@
   color: white;
   text-shadow: 0 0 8px black; }
 
-.imagen-index {
+.imagen-index, .imagen-contacto {
   display: flex;
   margin: auto;
   align-items: center;
@@ -71,11 +71,6 @@
   .discografia-listado:hover .discografia-imagen img {
     filter: blur(2px); }
 
-.imagen-contact {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .edda {
   width: 417px;
   height: 324px; }
@@ -108,7 +103,9 @@
     grid-template-rows: auto auto auto auto auto auto auto auto auto;
     margin-top: 45px;
     padding-left: 70px;
-    padding-right: 70px; }
+    padding-right: 70px; } }
+
+@media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0; } }
@@ -121,44 +118,55 @@
 
 .formulario-contacto {
   box-sizing: border-box;
-  margin: auto;
   width: 50%;
-  height: 50%; }
-  .formulario-contacto .container-form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px; }
-    .formulario-contacto .container-form input[type=text], .formulario-contacto .container-form select, .formulario-contacto .container-form textarea, .formulario-contacto .container-form input[type=date] {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid aliceblue;
-      border-radius: 4px;
-      resize: vertical; }
-    .formulario-contacto .container-form label {
-      padding: 12px 12px 12px 0;
-      display: inline-block; }
-    .formulario-contacto .container-form input[type=submit] {
-      background-color: black;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      float: right; }
-    .formulario-contacto .container-form input[type=submit]:hover {
-      background-color: #45a040; }
-    .formulario-contacto .container-form .col-25 {
-      float: left;
-      width: 25%;
-      margin-top: 6px; }
-    .formulario-contacto .container-form .col-75 {
-      float: left;
-      width: 75%;
-      margin-top: 6px; }
-    .formulario-contacto .container-form .row:after {
-      content: "";
-      display: table;
-      clear: both; }
+  height: 50%;
+  margin: auto; }
+
+input[type=text], select, textarea, input [type=date], select, textarea, input[type=date] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid aliceblue;
+  border-radius: 4px;
+  resize: vertical; }
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block; }
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right; }
+
+input[type=submit]:hover {
+  background-color: #45a040; }
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px; }
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px; }
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.row-submit {
+  padding-top: 10px; }
 
 footer {
   display: flex;
