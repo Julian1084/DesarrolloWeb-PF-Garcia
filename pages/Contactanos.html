@@ -65,20 +65,77 @@
         width="50%"></div>
 
     <!-- formulario de contacto -->
-    <div class="formulario-contacto">
-
-      <form action="formulario-contacto.php" method="post">
-        <h4>Dejanos tu mensaje</h4>
-        
-        <input name="nombre" type="text" placeholder="Nombre" maxlength="30" pattern="[a-zA-Z0-9]+" required
-          autofocus />
-        <input name="Apellido" type="text" placeholder="Apellido" maxlength="30" pattern="[a-zA-Z0-9]+" required
-          autofocus />
-        <input name="fechadenacimiento" type="date" placeholder="Fecha de Nacimiento" maxlength="30"
-          pattern="[a-zA-Z0-9]+" required autofocus />
-        <input name="email" type="email" placeholder="Correo electrónico" required />
-        <textarea name="consulta" placeholder="Dejanos tu mensaje" rows="6" required></textarea>
-        <button id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
+   <div class="formulario-contacto">
+    <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Dejale tu mensaje a Fito</h1>
+    <hr class="mt-2 mb-5">
+        <div class="container-form">
+      <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Nombre</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Escribí Nombre">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Apellido</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Escribí tu apellido">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="date">Fecha de Nacimiento</label>
+        </div>
+        <div class="col-75">
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="row">
+        <div class="col-25">
+          <label for="email">Correo electrónico</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="email" name="email" placeholder="Escribí tu mail">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="pais">Pais</label>
+        </div>
+        <div class="col-75">
+          <select id="pais" name="pais">
+            <option value="argentina">Argentina</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="chile">Chile</option>
+            <option value="peru">Peru</option>
+            <option value="colombia">Colombia</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="brasil">Brasil</option>
+            <option value="ecuador">Escuador</option>
+            <option value="espana">España</option>
+            <option value="estadosunidos">Estados Unidos</option>
+            <option value="mexico">México</option>
+            <option value="other">Otro</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="mensaje">Mensaje</label>
+        </div>
+        <div class="col-75">
+          <textarea id="mensaje" name="mensaje" placeholder="Escribile tu mensaje para Fito..." style="height:200px"></textarea>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <input type="submit" value="Enviar">
+      </div>
       </form>
     </div>
   </main>
@@ -93,6 +150,7 @@
     <div class="facebook"><a href="https://www.facebook.com/fitopaez" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
     <div class="twitter"><a href="https://www.twitter.com/FitoPaezMusica" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
   </div>
+</div>
   </footer>
   <script src="https://kit.fontawesome.com/e4cdfbb0a2.js" crossorigin="anonymous"></script>
 <!-- JavaScript Bundle with Popper -->

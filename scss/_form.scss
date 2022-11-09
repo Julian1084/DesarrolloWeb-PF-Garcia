@@ -1,16 +1,57 @@
-form{
-  padding: 60px;
-  max-width: 400px;
-  background-color: $color-aliceblue;
-  border-style: ridge ;
-  margin: 10px auto;
+.formulario-contacto{
+  box-sizing: border-box;
+  margin: auto;
+  @include sizes (50%,50%)
+  
+  .container-form {
+    border-radius: 5px;
+    background-color: $color-formulario;
+    padding: 20px;
 
-    input, textarea{
-      font-family: "Roboto", sans-serif;
+
+    input[type=text], select, textarea, input[type=date]  {
       width: 100%;
-      box-sizing: border-box; 
-      border: $color-negro; 
-      color: $color-formulario; 
-      font-size: 1em;
+      padding: 12px;
+      border: 1px solid $color-aliceblue;
+      border-radius: 4px;
+      resize: vertical;
       }
+
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+
+    input[type=submit] {
+      background-color: $color-negro;
+      color: $color-blanco;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+
+    input[type=submit]:hover {
+      background-color: $color-submit;
+    }
+
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+      }
+
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
 }
