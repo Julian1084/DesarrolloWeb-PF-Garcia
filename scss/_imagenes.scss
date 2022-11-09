@@ -93,6 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include sizes (50%,50%)
 }
 .edda {
     @include sizes (417px,324px)
