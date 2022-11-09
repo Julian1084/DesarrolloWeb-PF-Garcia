@@ -33,7 +33,17 @@
         margin-top: 45px;
         padding-left: 70px;
         padding-right: 70px;}
-    }
+        
+        .img-fluid{
+          @include sizes(480px,275px)
+          filter: sepia(60%);
+      
+          &:hover{
+              filter: none;
+              }
+          }
+    
+        }
     
     @media screen and (max-width: 600px) {
 
