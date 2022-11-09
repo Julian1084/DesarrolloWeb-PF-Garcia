@@ -1,9 +1,9 @@
-.imagen-index 
+.imagen-index {
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
-    @include sizes(70%,70%)
+    @include sizes (70%,70%)
     
 }
 
