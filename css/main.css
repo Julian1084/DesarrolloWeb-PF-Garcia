@@ -31,6 +31,8 @@
       filter: blur(0px); }
 
 .img-fluid {
+  width: 1214px;
+  height: 697px;
   filter: sepia(60%); }
   .img-fluid:hover {
     filter: none; }

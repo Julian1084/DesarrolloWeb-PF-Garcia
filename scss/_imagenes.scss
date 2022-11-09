@@ -33,6 +33,7 @@
         }
     }
 .img-fluid{
+    @include sizes(1214px,697px)
     filter: sepia(60%);
 
     &:hover{
