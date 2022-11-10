@@ -91,11 +91,9 @@
     }
 }
   
-.edda {
-    @include sizes (300px,233px)
-}
 
 .imagen-contacto {
     @extend .imagen-index;
-    @include sizes (70%,70%)
+    @include sizes (50%;50%);
+    
 } 
