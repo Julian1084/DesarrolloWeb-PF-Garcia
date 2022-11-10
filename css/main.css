@@ -128,43 +128,52 @@
   width: 70%;
   height: 70%;
   margin: auto; }
-  .formulario-contacto .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px; }
-    .formulario-contacto .container input[type=text], .formulario-contacto .container select, .formulario-contacto .container textarea, .formulario-contacto .container input [type=date], .formulario-contacto .container select, .formulario-contacto .container textarea, .formulario-contacto .container input[type=date] {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid aliceblue;
-      border-radius: 4px;
-      resize: vertical; }
-    .formulario-contacto .container label {
-      padding: 12px 12px 12px 0;
-      display: inline-block; }
-    .formulario-contacto .container input[type=submit] {
-      background-color: #04AA6D;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      float: right; }
-    .formulario-contacto .container input[type=submit]:hover {
-      background-color: #45a040; }
-    .formulario-contacto .container .col-25 {
-      float: left;
-      width: 25%;
-      margin-top: 6px; }
-    .formulario-contacto .container .col-75 {
-      float: left;
-      width: 75%;
-      margin-top: 6px; }
-    .formulario-contacto .container .row:after {
-      content: "";
-      display: table;
-      clear: both; }
-    .formulario-contacto .container .row-submit {
-      padding-top: 10px; }
+
+input[type=text], select, textarea, input [type=date], select, textarea, input[type=date] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid aliceblue;
+  border-radius: 4px;
+  resize: vertical; }
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block; }
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right; }
+
+input[type=submit]:hover {
+  background-color: #45a040; }
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px; }
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px; }
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.row-submit {
+  padding-top: 10px; }
 
 footer {
   display: flex;
