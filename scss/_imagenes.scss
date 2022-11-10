@@ -33,7 +33,7 @@
         }
     }
 .img-fluid{
-    @include sizes(1214px,697px)
+    @include sizes(100%,100%)
     filter: sepia(60%);
 
     &:hover{
@@ -91,7 +91,7 @@
 }
   
 .edda {
-    @include sizes (417px,324px)
+    @include sizes (100%,100%)
 }
 
 .imagen-contacto {
