@@ -78,6 +78,10 @@
   width: 300px;
   height: 233px; }
 
+.imagen-contacto {
+  width: 70%;
+  height: 70%; }
+
 .spotify-edda {
   display: flex;
   flex-direction: row;

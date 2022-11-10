@@ -96,5 +96,6 @@
 }
 
 .imagen-contacto {
-    @extend .imagen-index
+    @extend .imagen-index;
+    @include sizes (70%,70%)
 } 
