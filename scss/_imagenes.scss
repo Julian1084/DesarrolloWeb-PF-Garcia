@@ -50,6 +50,7 @@
         .discografia-imagen {
             line-height: 0;
             overflow: hidden;
+            object-fit: contain;
           
              img {
                 filter: blur(0px);
