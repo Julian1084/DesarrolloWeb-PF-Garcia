@@ -43,7 +43,8 @@
   margin-bottom: 10px; }
   .discografia-listado .discografia-imagen {
     line-height: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    object-fit: contain; }
     .discografia-listado .discografia-imagen img {
       filter: blur(0px);
       transition: filter 0.3s ease-in;
