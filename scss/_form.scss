@@ -2,7 +2,12 @@
   box-sizing: border-box;
   @include sizes (70%,70%);
   margin: auto;
-}
+
+  .container {
+    border-radius: 5px;
+    background-color: $color-formulario;
+    padding: 20px;
+ 
 input[type=text], select, textarea, input[type=date] {
   width: 100%;
   padding: 12px;
@@ -39,11 +44,7 @@ input[type=submit]:hover {
   background-color: $color-submit;
 }
 
-.container {
-  border-radius: 5px;
-  background-color: $color-formulario;
-  padding: 20px;
-}
+
 
 .col-25 {
   float: left;
@@ -67,4 +68,5 @@ input[type=submit]:hover {
   padding-top: 10px;
       }  
 
-
+    }
+  }
