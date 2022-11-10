@@ -96,13 +96,7 @@
     grid-template-rows: auto auto auto auto;
     margin-top: 45px;
     padding-left: 70px;
-    padding-right: 70px; }
-  .img-fluid {
-    width: 820px;
-    height: 470px;
-    filter: sepia(60%); }
-    .img-fluid:hover {
-      filter: none; } }
+    padding-right: 70px; } }
 
 @media screen and (max-width: 480px) {
   .galeria-grid-container {
@@ -111,13 +105,7 @@
     grid-template-rows: auto auto auto auto auto auto auto auto auto;
     margin-top: 45px;
     padding-left: 70px;
-    padding-right: 70px; }
-  .img-fluid {
-    width: 480px;
-    height: 275px;
-    filter: sepia(60%); }
-    .img-fluid:hover {
-      filter: none; } }
+    padding-right: 70px; } }
 
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
