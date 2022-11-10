@@ -31,8 +31,8 @@
       filter: blur(0px); }
 
 .img-fluid {
-  width: 729px;
-  height: 418px;
+  width: 1214px;
+  height: 697px;
   filter: sepia(60%); }
   .img-fluid:hover {
     filter: none; }
@@ -54,8 +54,8 @@
     text-decoration: none;
     z-index: 1;
     position: absolute;
-    width: 370px;
-    height: 288px;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     opacity: 0;
@@ -74,8 +74,8 @@
     filter: blur(2px); }
 
 .edda {
-  width: 100%;
-  height: 100%; }
+  width: 417px;
+  height: 324px; }
 
 .spotify-edda {
   display: flex;
