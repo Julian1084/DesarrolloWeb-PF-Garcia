@@ -31,8 +31,8 @@
       filter: blur(0px); }
 
 .img-fluid {
-  width: 100%;
-  height: 100%;
+  width: 729px;
+  height: 418px;
   filter: sepia(60%); }
   .img-fluid:hover {
     filter: none; }
@@ -54,8 +54,8 @@
     text-decoration: none;
     z-index: 1;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 370px;
+    height: 288px;
     top: 0;
     left: 0;
     opacity: 0;
